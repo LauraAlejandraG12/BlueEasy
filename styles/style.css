@@ -299,6 +299,7 @@ nav a:hover {
 
 .imgsSec6 img {
     width: 8vh;
+    cursor: pointer;
 }
 
 .imgsSec6 {
@@ -421,6 +422,14 @@ p.botonSec7 {
     color: white;
     font-size: 12px;
     font-weight: 600;
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
 }
 
 .contextArea textarea {
@@ -760,40 +769,40 @@ p.botonSec7 {
 @media(max-width:480px) {
 
     /* seccion1 */
-    header{
+    header {
         padding: 15px 10px;
     }
 
-    nav{
+    nav {
         gap: 10px;
     }
 
-    .conText1 h2{
+    .conText1 h2 {
         width: 300px;
     }
 
     /* seccion2 */
 
-    .section2{
+    .section2 {
         padding: 20vh 10vh;
     }
 
     /* section3 */
 
-    .header1 nav{
+    .header1 nav {
         gap: 3px;
     }
 
-    .header1 nav a{
+    .header1 nav a {
         font-size: 12px;
     }
 
-    
+
     .imgsSec3 {
         grid-template-columns: repeat(2, 35vh);
     }
 
-     .imgsSec3 img {
+    .imgsSec3 img {
         width: 35vh;
     }
 
@@ -802,30 +811,31 @@ p.botonSec7 {
     .section4 {
         padding: 10vh 10vh;
     }
+
     .imgSec4 img {
         width: 60vh;
     }
 
     /* seccion5 */
-    .section5{
+    .section5 {
         padding: 5vh 10vh;
     }
 
 
     /* seccion6 */
-    .section6{
+    .section6 {
         padding: 15vh 10vh;
     }
 
     /* seccion7 */
 
-    .section7{
+    .section7 {
         padding: 5vh 10vh;
     }
 
     /* section8 */
 
-    .section8{
+    .section8 {
         padding: 15vh 10vh;
         height: 190vh;
     }
@@ -835,15 +845,14 @@ p.botonSec7 {
         width: 65vh;
     }
 
-    .form2{
+    .form2 {
         margin-top: 20px;
     }
 
     /* footer */
 
-    .conTextF{
+    .conTextF {
         padding: 10vh 10vh;
-       font-size: 10px;
+        font-size: 10px;
     }
 }
-
